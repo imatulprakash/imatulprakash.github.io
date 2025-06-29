@@ -1389,7 +1389,7 @@ section,
 
 .contact .info-item .icon {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: white;
   width: 56px;
   height: 56px;
   font-size: 24px;
@@ -1473,4 +1473,23 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+
+  /*--------------------------------------------------------------}
+# New CSS Styles for Info Item Icons in Contact Section
+--------------------------------------------------------------*/
+.info-item .icon {
+  transition: color 0.3s, transform 0.3s;
+  color: #0d6efd; /* Default icon color */
+  font-size: 2rem;
+  /* border: 2px solid transparent; Add default border */
+}
+
+.info-item:hover .icon,
+.info-item:focus .icon {
+  /* color: #198754;      Change to your preferred hover color */
+  background-color: var(--accent-color);
+  transform: scale(1.2);
+  /* border: 2px solid #198754; Add border on hover */
 }
