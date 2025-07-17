@@ -1493,3 +1493,7 @@ section,
   transform: scale(1.2);
   /* border: 2px solid #198754; Add border on hover */
 }
+
+.section.my-class {
+  background-color: transparent;
+}
