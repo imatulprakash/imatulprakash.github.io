@@ -1051,7 +1051,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Personal Information Section
 --------------------------------------------------------------*/
 .services .service-item {
   background-color: var(--surface-color);
@@ -1129,7 +1129,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Service Details Section
+# Personal Detail Section - to apple ahref from personal information section
 --------------------------------------------------------------*/
 .service-details .services-list {
   background-color: var(--surface-color);
@@ -1307,7 +1307,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# Award Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
