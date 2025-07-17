@@ -1,9 +1,5 @@
 /**
-* Template Name: Personal
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
 * Updated: Mar 05 2025 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
 */
 
 /*--------------------------------------------------------------
@@ -1055,7 +1051,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# Personal Information Section
 --------------------------------------------------------------*/
 .services .service-item {
   background-color: var(--surface-color);
@@ -1133,7 +1129,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Service Details Section
+# Personal Detail Section - to apple ahref from personal information section
 --------------------------------------------------------------*/
 .service-details .services-list {
   background-color: var(--surface-color);
@@ -1311,7 +1307,7 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# Award Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -1492,4 +1488,8 @@ section,
   background-color: var(--accent-color);
   transform: scale(1.2);
   /* border: 2px solid #198754; Add border on hover */
+}
+
+.section.my-class {
+  background-color: transparent;
 }
