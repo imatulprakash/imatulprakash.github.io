@@ -1026,6 +1026,9 @@ section,
   margin-bottom: 10px;
 }
 
+.resume .resume-item h6 {
+  font-weight: bold;
+}
 .resume .resume-item ul {
   padding-left: 20px;
 }
@@ -1492,4 +1495,22 @@ section,
 
 .section.my-class {
   background-color: transparent;
+}
+
+.skill-card {
+  background: #fff;
+  border-radius: 16px; 
+  padding: 16px; 
+  max-width: 128px;
+}
+
+.skill-card img {
+  height:64px; 
+  width:auto; 
+  border-radius: 8px;
+}
+
+.skill-card h6 {
+  font-size: 1rem; 
+  color: #222;
 }
